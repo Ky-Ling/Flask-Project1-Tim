@@ -1,0 +1,45 @@
+Flask initialization(__init__.py)
+Running the flask web server(app.py)
+Creating routes/views
+Blueprints(view.py auth.py)
+Rendering HTML
+BootStrap(base.html)
+Creating the navbar(base.html)
+Creating the login page(login.html)
+Creating sign up page(logout.html)
+
+
+
+Http post method
+1: Getting data from the form (auth.py)
+2: SQLAlchemy database setup (__init__.py)
+3: Creating the User Models
+4: Flask Login setup (__init__.py)
+5: Creating new users (auth.signup)
+6: Password Hashing 
+7: Logging in User (login)
+8: Message flashing (base.html)
+9: Restricting page access (view.home) --> We can not access this home page unless we are logged in.
+10: Dynamic navbar (base.html)
+11: Creating post HTML (posts.html)
+12: Creating post view (views.py)
+13: Post database model (models.py)
+14: Foreign key relationships
+15: Creating a post (views/create_post)
+16: Display the posts ( views/home )
+17: Delete post button (posts_div.html)
+18: Delete post view 
+19: Creating some buttons
+20: Viewing user posts (route/posts)
+21: Comment database model 
+22: Creating Comment HTML (posts_div.html)
+23: Creating Comment view (views/create_comments) 
+24: Displaying Comments
+25: Delete Comment HTML
+26: Delete Comment view
+27: Like database model
+28: Adding font awesome icons
+29: Like counter
+30: Like post view 
+31: Like button
+32: Avoid page refresh using Javascript
